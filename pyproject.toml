@@ -5,7 +5,10 @@ description = ""
 authors = ["Cory Mosiman <cory.mosiman12@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "^3.7.1"
+jupyterlab = "^3.0.12"
+pandas = "^1.2.3"
+plotly = "^4.14.3"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
